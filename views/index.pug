@@ -1,0 +1,54 @@
+doctype html
+html
+    head
+     style
+          include ../static/index.css
+    body 
+       nav#navbar
+         
+          ul
+             div.logo
+                 img(src="../static/style2.png", alt="" , height="50px")
+             li #[a(href="/") Home]      
+             li #[a(href="/") About us]      
+             li #[a(href="/") Services]      
+             li #[a(href="/") Contact us]  
+
+      
+       section#introsection
+          | Hi! Welcome To Mittal's Dance Academy
+
+       section#servicessection  
+          div.heading 
+               h2 Dance Styles
+          div.card 
+             h1 Ballet
+                  div.img
+                      img(src="../static/style1.png", alt="no", height="60px")   
+
+             p.para Ballet is an art form created by the movement of the human body. It is theatrical – performed on a stage to an audience utilizing costumes, scenic design and lighting. It can tell a story or express a thought, concept or emotion. Ballet can be magical, exciting, provoking or disturbing.
+          div.card 
+             h1 Hip Hop
+                  div.img
+                      img(src="../static/style2.png", alt="no", height="60px")   
+
+             p.para  The purpose of hip hop dance is to gather an audience and to entertain a crowd of people. Hip hop is officially done on the streets and known as the most popular street dance. It was mainly originated in the United States of America specifically in the city of New York.     
+          div.card 
+             h1 Couple Dance
+                  div.img
+                      img(src="../static/style3.png", alt="no", height="60px")   
+
+             p.para  Dance partners stay together for the duration of the dance and, most often, dance independently of other couples dancing at the same time, if any.Although this kind of dancing can be seen, for instance, in ballet, this term is usually applied to various forms of social dance.
+                 
+
+       section#sponserssection
+            div.heading 
+               h2 Our Sponsers
+            div.img2
+               img(src="../static/applelogo.png", alt="no", height="200px")   
+            div.img2
+              img(src="../static/amazonlogo.png", alt="no", height="200px")       
+            div.img2
+              img(src="../static/microsoflogo.png", alt="no", height="200px")               
+    script
+        include ../static/index.js
